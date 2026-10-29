@@ -1,0 +1,81 @@
+tea-collector-system/
+│
+├── 📄 index.php                          # Login page
+├── 📄 logout.php                         # Logout handler
+├── 📄 dashboard.php                      # Main dashboard
+├── 📄 README.md                          # Installation guide
+├── 📄 SYSTEM_DOCUMENTATION.md            # Full system documentation
+│
+├── 📁 config/
+│   ├── 📄 constants.php
+│   ├── 📄 database.php
+│   └── 📄 session.php
+│
+├── 📁 includes/
+│   ├── 📄 header.php
+│   ├── 📄 footer.php
+│   ├── 📄 sidebar.php
+│   ├── 📄 auth.php
+│   └── 📄 functions.php
+│
+├── 📁 modules/
+│   ├── 📁 farmers/
+│   │   ├── index.php
+│   │   ├── create.php
+│   │   ├── edit.php
+│   │   ├── view.php
+│   │   └── delete.php
+│   │
+│   ├── 📁 collections/
+│   │   ├── index.php
+│   │   ├── create.php
+│   │   ├── edit.php
+│   │   ├── view.php
+│   │   └── delete.php
+│   │
+│   ├── 📁 payments/
+│   │   ├── index.php
+│   │   ├── calculate.php
+│   │   ├── process.php
+│   │   ├── statement.php
+│   │   └── view.php
+│   │
+│   ├── 📁 transport/
+│   │   ├── index.php
+│   │   ├── create.php
+│   │   ├── edit.php
+│   │   └── view.php
+│   │
+│   ├── 📁 inventory/
+│   │   └── index.php
+│   │
+│   ├── 📁 reports/
+│   │   ├── daily.php
+│   │   ├── weekly.php
+│   │   ├── monthly.php
+│   │   ├── annual.php
+│   │   └── farmers.php
+│   │
+│   └── 📁 users/
+│       ├── index.php
+│       ├── create.php
+│       ├── edit.php
+│       └── delete.php
+│
+├── 📁 api/
+│   ├── 📄 get_farmer.php
+│   └── 📄 dashboard_stats.php
+│
+├── 📁 assets/
+│   ├── 📁 css/
+│   │   └── 📄 style.css
+│   ├── 📁 js/
+│   │   └── 📄 main.js
+│   └── 📁 images/
+│       └── (logo.png)
+│
+├── 📁 database/
+│   └── 📄 tea_collector.sql
+│
+└── 📁 uploads/
+    └── (empty - for future file uploads)

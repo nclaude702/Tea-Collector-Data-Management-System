@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-label="SORWATHE logo">
+  <defs>
+    <linearGradient id="g1" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#24a148"/>
+      <stop offset="100%" stop-color="#0d5c3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="120" rx="18" fill="#f4fbf5"/>
+  <g transform="translate(16 14)">
+    <circle cx="42" cy="42" r="34" fill="url(#g1)"/>
+    <path d="M42 18c12 9 19 20 22 30 4 12-2 23-16 29-10-8-17-19-18-31 0-12 5-20 12-28z" fill="#dff9e7" opacity="0.9"/>
+    <path d="M43 22c9 9 14 18 14 27 0 11-7 19-17 25-10-7-16-18-16-29 0-10 7-18 19-23z" fill="#ffffff" opacity="0.65"/>
+    <path d="M42 53c8-2 14-7 17-14-6 2-11 4-18 5-7 1-15 2-23 1 4 7 12 10 24 8z" fill="#0d5c3a" opacity="0.7"/>
+  </g>
+  <g transform="translate(110 28)">
+    <text x="0" y="28" font-size="36" font-weight="700" fill="#1b4332" font-family="Segoe UI, Arial, sans-serif">SORWATHE</text>
+    <text x="2" y="58" font-size="15" letter-spacing="3" fill="#4f8f66" font-family="Segoe UI, Arial, sans-serif">TEA COLLECTOR SYSTEM</text>
+    <line x1="0" y1="70" x2="260" y2="70" stroke="#9ec8a6" stroke-width="3"/>
+  </g>
+</svg>
